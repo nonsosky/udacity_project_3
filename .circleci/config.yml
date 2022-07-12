@@ -94,7 +94,7 @@ jobs:
             npm install
             npm audit fix --audit-level=critical
 
-wokflows:
+workflows:
   project-deployment:
     jobs:
       - build-frontend
